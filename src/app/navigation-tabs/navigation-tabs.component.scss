@@ -4,21 +4,22 @@ height:100%;
 //background-color:lightblue;
 
 .navigation-tab-group{
-background-color:pink;
+//background-color:pink;
 height:100%;
 }
 
 
-// these styles will not work because of view encapsulation. Use ::ng deep
+// these styles will not work because of view encapsulation. Use ::ng deep. Or put the styles in styles.scss.Check in styles folder
+/*
 ::ng-deep .mat-tab-body-wrapper{
 flex-grow:1;
 height:100%;
-background-color:blue !important;
+background-color:blue;
 }
+*/
 
 .content1{
 display:block;
-background-color:yellow;
 height:100%;
 }
 
