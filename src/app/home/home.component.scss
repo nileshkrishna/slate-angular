@@ -1,0 +1,10 @@
+// occupies 100% height
+.home{
+   height:100%;
+   display:flex;
+   flex-direction: column;
+
+   .navigation-tabs-container{
+   align-self:flex-end;
+    }
+}
